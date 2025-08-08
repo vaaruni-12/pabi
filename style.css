@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  background: url('ba162698-15c1-d2c7-7c8f-f9d4aabe3846.gif') center center / cover no-repeat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  background-color: #f0ed31;
+}
+
+h1 {
+  color: #580c66;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.photo {
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #033f2a;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+  background-color: #ff9933;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e67300;
+}
+
+.hidden {
+  display: none;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #008000;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #fffbe0;
+    width: 95vw;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .photo {
+    max-width: 90vw;
+    height: auto;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+}
