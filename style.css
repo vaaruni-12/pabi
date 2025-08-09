@@ -64,11 +64,11 @@ button:hover {
 
 @media (max-width: 600px) {
   .container {
-    padding: 10px;
+    padding: 6px;
     border-radius: 8px;
     box-shadow: none;
-    background-color: #fffbe0;
-    width: 95vw;
+    background-color: transparent; /* changed from #fffbe0 */
+    width: 90vw;                   /* reduced width */
   }
 
   h1 {
@@ -90,5 +90,3 @@ button:hover {
     padding: 12px 0;
   }
 }
-
-
